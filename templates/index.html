@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+    <head><title>salry prediction</title></head>
+    <body bgcolor="orange">
+        <center>
+            <h1>ENTER THE EXPERIENCE TO PREDICT THE SALARY:</h1>
+            <form action="/predict" method="post">
+                <input type="text" name="exp" placeholder="experience"> <br>
+                <button class='btn btn-success'>predict</button>
+            </form>
+
+            <div>
+                <h2>the expected salary of the person based on Experience is: {{prediction}}</h2>
+            </div>
+        </center>
+    </body>
+</html>
